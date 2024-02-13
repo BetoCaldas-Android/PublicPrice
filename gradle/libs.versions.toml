@@ -13,7 +13,6 @@ anychartV = "1.1.5"
 
 
 [libraries]
-#[main_libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
@@ -28,9 +27,8 @@ ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview
 ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 material3 = { group = "androidx.compose.material3", name = "material3" }
+################################################
 anychart = { module = "com.github.AnyChart:AnyChart-Android", version.ref = "anychartV"}
-
-#[other_libs]
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
